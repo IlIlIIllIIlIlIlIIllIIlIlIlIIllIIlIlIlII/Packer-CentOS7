@@ -68,6 +68,7 @@ variable "vsphere-content-libary"{
 variable "git-branch"{
   type = string
   description = "branch name"
+  default = "development"
 }
 
 variable "os_family"{
